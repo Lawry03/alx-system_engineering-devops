@@ -26,3 +26,6 @@ Using the (chmod a+x hello) command, this script add execution permissions to th
 
 ## 8-James_Bond
 Using the (chmod 007 hello) command, this script sets no permissions at all to the owner and group and allows for all permissions to the Other users.
+
+## 9-John_Doe
+Using the (chmod 753 hello) command, this script sets the mode of the file to -rwxr-x-wx.
