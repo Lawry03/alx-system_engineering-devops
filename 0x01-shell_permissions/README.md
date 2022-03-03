@@ -38,3 +38,6 @@ Using the (chmod a+X *) command, this script adds execute permission to all subd
 
 ## 12-directory_permissions
 Using the (mkdir -m751 my_dir) command, this sccript creates a directory called my_dir with permissions 751 in the working directory.
+
+## 13-change_group
+Using the (chgrp school hello) command, this script changes the group owner to 'school' for the file 'hello'.
