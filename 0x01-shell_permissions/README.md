@@ -17,3 +17,6 @@ Using the (touch hello) command, this script creates an empty file called 'hello
 
 ## 5-execute
 Using the (chmod u+x) command, this script adds execute permission to the owner of the file 'hello'.
+
+## 6-multiple_permissions
+Using the (chmod ug+x,o+r hello) command, this script adds execut permission to the user and group owner, and read permission to other user, the the file 'hello'.
