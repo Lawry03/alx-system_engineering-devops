@@ -11,3 +11,6 @@ Using the (groups) command, this script prints all the groups the current user i
 
 ## 3-new_owner
 Using the (chown betty hello) command, this script changes the owner of the file hello to the user betty.
+
+## 4-empty
+Using the (touch hello) command, this script creates an empty file called hello.
