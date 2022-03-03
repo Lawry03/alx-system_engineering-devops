@@ -29,3 +29,6 @@ Using the (chmod 007 hello) command, this script sets no permissions at all to t
 
 ## 9-John_Doe
 Using the (chmod 753 hello) command, this script sets the mode of the file to -rwxr-x-wx.
+
+## 10-mirror_permissions
+Using the (chmod --reference=olleh hello) command, this script sets the mode of the file 'hello' the same as 'olleh's mode.
