@@ -44,3 +44,12 @@ Using the (chgrp school hello) command, this script changes the group owner to '
 
 ## 100-change_owner_and_group
 Using the (chown vincent:staff *) command, this script changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+
+## 101-symbolic_link_permissions
+Using the (chown -h vincent:staff _hello) command, this script changes the owner and the group owner of _hello to vincent and staff respectively.
+
+## 102-if_only
+Using the (chown --from=guillaume betty hello) command, this script changes the owner of the file hello to betty only if it is owned by the user guillaume.
+
+## 103-Star_Wars
+Using the (telnet towel.blinkenlights.nl) command, this script will play the StarWars IV episode in the terminal.
