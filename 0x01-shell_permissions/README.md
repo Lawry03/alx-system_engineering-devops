@@ -8,3 +8,6 @@ Using the (whoami) command, this script prints the effective username of the cur
 
 ## 2-groups
 Using the (groups) command, this script prints all the groups the current user is part of.
+
+## 3-new_owner
+Using the (chown betty hello) command, this script changes the owner of the file hello to the user betty.
