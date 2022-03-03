@@ -20,3 +20,6 @@ Using the (chmod u+x) command, this script adds execute permission to the owner 
 
 ## 6-multiple_permissions
 Using the (chmod ug+x,o+r hello) command, this script adds execut permission to the user and group owner, and read permission to other user, the the file 'hello'.
+
+## 7-everybody
+Using the (chmod a+x hello) command, this script add execution permissions to the owner, group owner and other users to the 'hello' file.
