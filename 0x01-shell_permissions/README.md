@@ -23,3 +23,6 @@ Using the (chmod ug+x,o+r hello) command, this script adds execut permission to 
 
 ## 7-everybody
 Using the (chmod a+x hello) command, this script add execution permissions to the owner, group owner and other users to the 'hello' file.
+
+## 8-James_Bond
+Using the (chmod 007 hello) command, this script sets no permissions at all to the owner and group and allows for all permissions to the Other users.
