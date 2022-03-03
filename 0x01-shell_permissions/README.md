@@ -32,3 +32,6 @@ Using the (chmod 753 hello) command, this script sets the mode of the file to -r
 
 ## 10-mirror_permissions
 Using the (chmod --reference=olleh hello) command, this script sets the mode of the file 'hello' the same as 'olleh's mode.
+
+## 11-directories_permissions
+Using the (chmod a+X *) command, this script adds execute permission to all subdirectories of the current directory for thegroup owner and all other users. Regular files will not be changed.
