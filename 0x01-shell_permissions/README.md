@@ -41,3 +41,6 @@ Using the (mkdir -m751 my_dir) command, this sccript creates a directory called 
 
 ## 13-change_group
 Using the (chgrp school hello) command, this script changes the group owner to 'school' for the file 'hello'.
+
+## 100-change_owner_and_group
+Using the (chown vincent:staff *) command, this script changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
