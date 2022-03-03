@@ -35,3 +35,6 @@ Using the (chmod --reference=olleh hello) command, this script sets the mode of 
 
 ## 11-directories_permissions
 Using the (chmod a+X *) command, this script adds execute permission to all subdirectories of the current directory for thegroup owner and all other users. Regular files will not be changed.
+
+## 12-directory_permissions
+Using the (mkdir -m751 my_dir) command, this sccript creates a directory called my_dir with permissions 751 in the working directory.
